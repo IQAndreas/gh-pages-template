@@ -1,0 +1,15 @@
+<!-- STYLESHEETS -->
+{% include css global="reset.css" %}
+{% if site.pygments %}{% include css global="pygments-syntax-hilighting.css" %}{% endif %}
+
+{% if page.layout == "slate" %}
+	<!-- Styles for the Slate theme by by Jason Costello (@jsncostello) -->
+	{% include css global="slate/main.css" %}
+	{% include css global="slate/custom.css" %}
+	{% if site.github_url %}{% include css global="slate/github-project.css" %}{% endif %}
+{% endif %}
+
+{% include css url="http://www.iqandreas.com/flink/stylesheets/all.css" %}
+{% include css global="snippets.css" %}
+{% include css global="tiny-images.css" %}
+

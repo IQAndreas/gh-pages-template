@@ -1,0 +1,1 @@
+<a href="{{ include.url }}" class="more">{% if include.title %}{{ include.title }}{% else %}More &rarr;{% endif %}</a>

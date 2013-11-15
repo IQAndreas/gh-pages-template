@@ -1,0 +1,1 @@
+<a href="{% if include.url %}{{ include.url }}{% else %}{{ site.url }}{% endif %}" class="back">{% if include.title %}{{ include.title }}{% else %}&larr; Back{% endif %}</a>
