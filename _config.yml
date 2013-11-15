@@ -4,7 +4,7 @@
 
 name: Andreas Renberg (IQAndreas)
 author: Andreas Renberg (IQAndreas)
-url: 'http://static.iqandreas.com/'
+url: 'http://www.iqandreas.com/gh-pages-template'
 source_url: 'https://github.com/IQAndreas/gh-pages-template/tree/gh-pages'
 
 title: "GitHub Pages Jekyll Template"
@@ -49,7 +49,7 @@ google_analytics_name: iqandreas.com
 destination: _public
 plugins: 	 _plugins
 
-exclude: [LICENSE.md, update.sh, init-docs.sh]
+exclude: [LICENSE.md, update.sh]
 
 markdown: redcarpet
 pygments: true
