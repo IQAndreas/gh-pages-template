@@ -1,0 +1,2 @@
+{% capture next_url %}../{{ page.part | plus:1 }}{% endcapture %}
+{% capture prev_url %}../{{ page.part | minus:1 }}{% endcapture %}
