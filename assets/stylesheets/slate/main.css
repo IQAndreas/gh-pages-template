@@ -116,9 +116,13 @@ p img {
 }
 
 pre, code {
-	width: 100%;
 	color: #222;
 	background-color: #fff;
+	
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 	font-size: 14px;
@@ -126,19 +130,18 @@ pre, code {
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 pre {
-	width: 100%;
 	padding: 10px;
-	box-shadow: 0 0 10px rgba(0,0,0,.1);
 	overflow: auto;
 }
 
 code {
 	padding: 3px;
 	margin: 0 3px;
-	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 pre code {
