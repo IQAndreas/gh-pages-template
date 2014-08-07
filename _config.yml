@@ -51,7 +51,7 @@ source_url: 'https://github.com/IQAndreas/gh-pages-template/tree/gh-pages'
 destination: _public
 plugins: 	 _plugins
 
-exclude: [LICENSE.md, update.sh, init-docs.sh]
+exclude: [LICENSE.md]
 
 relative_permalinks: false
 markdown: redcarpet
